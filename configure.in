@@ -1,11 +1,11 @@
 AC_INIT(src/Rigroup.c)
 AC_PREREQ(2.13)
 AC_REVISION($Revision: 1.5 $)
-# AC_CONFIG_SRCDIR(src/Ruuid.c)
+# AC_CONFIG_SRCDIR(src/Rigroup.c)
 
 if test -z "$HAVE_UNISTD_H"; then
   AC_CHECK_HEADER(/usr/include/unistd.h,
-      RUUIDDEFINES="-DHAVE_UNISTD_H=1")
+      RIGROUPDEFINES="-DHAVE_UNISTD_H=1")
 fi
 
 AC_SUBST(RIGROUPDEFINES)

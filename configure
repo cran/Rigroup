@@ -1287,7 +1287,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 
-# AC_CONFIG_SRCDIR(src/Ruuid.c)
+# AC_CONFIG_SRCDIR(src/Rigroup.c)
 
 if test -z "$HAVE_UNISTD_H"; then
   ac_ext=c
@@ -2847,7 +2847,7 @@ echo "${ECHO_T}$ac_cv_header__usr_include_unistd_h" >&6
 
 fi
 if test $ac_cv_header__usr_include_unistd_h = yes; then
-  RUUIDDEFINES="-DHAVE_UNISTD_H=1"
+  RIGROUPDEFINES="-DHAVE_UNISTD_H=1"
 fi
 
 
