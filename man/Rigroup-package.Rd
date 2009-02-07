@@ -25,5 +25,4 @@
 }
 \references{ None }
 \author{K. Hendricks with lots of help from B. Dunlap}
-}
 \keyword{package}
